@@ -1,0 +1,186 @@
+[
+    {
+        "filename": "finleafe_unique_features.pdf",
+        "text": "FinLeafe - Local Finance, Managed Digitally Page 1 FinLeafe Simple, secure digital finance management for local financiers What FinLeafe solves Local finance businesses often manage loans, pledged items, payments and due dates in notebooks. FinLeafe brings this work into one easy system - while giving customers a clear view of their own finance records. Built for Gold & Pawn Finance Digital pledge records, item photos, weight, purity, value and release tracking."
+    },
+    {
+        "filename": "finleafe_unique_features.pdf",
+        "text": "Vehicle Finance Bike, car and used-vehicle loans with down payment, EMI and vehicle-document records. Mobile & Electronics Finance for mobiles, TVs, refrigerators and more, including serial/IMEI tracking. Personal & Business Loans Daily, weekly, monthly or custom repayment schedules for local lending models. Unique features that make a real difference 1. Notebook-to-Digital Loan Entry A staff member can create a loan in minutes: customer, amount, interest, repayment plan and receipt."
+    },
+    {
+        "filename": "finleafe_unique_features.pdf",
+        "text": "It mirrors the familiar notebook process, but keeps records searchable and safe. 2. Visual Gold Locker Register Every pledged item has a photo, tag number, weight, purity and locker location. The owner can quickly find what is in stock and what is ready for release. 3. Collection Day Mode A simple screen shows only today's dues, overdue accounts and customer phone numbers. Collection staff can mark payment, partial payment, promise-to-pay or visit result. 4."
+    },
+    {
+        "filename": "finleafe_unique_features.pdf",
+        "text": "Collection staff can mark payment, partial payment, promise-to-pay or visit result. 4. Customer Finance Passbook Customers see a clear digital passbook: loan amount, next due date, amount paid, balance and all receipts. No confusion about their account. 5. Trust Receipt in WhatsApp After each payment, send a short receipt with amount, date, remaining balance and finance name through WhatsApp or SMS. 6."
+    },
+    {
+        "filename": "finleafe_unique_features.pdf",
+        "text": "6. Simple Tamil-first Experience Large buttons, pictures, Tamil/English labels and optional voice guidance reduce training needs for staff and customers. FinLeafe - Local Finance, Managed Digitally Page 2 Key functions for financiers Customer 360 View One profile shows customer details, family contact, active loans, past loans, payment history and uploaded documents."
+    },
+    {
+        "filename": "finleafe_unique_features.pdf",
+        "text": "Flexible Interest & EMI Calculate flat interest, monthly interest, custom instalments, partial payments and early closure amounts. Cash Closing Assistant At the end of the day, compare expected collection, cash received, UPI/bank receipts and staff-wise collections. Smart Due Reminders Automatically notify customers before the due date and give staff a clear follow-up list after missed payments."
+    },
+    {
+        "filename": "finleafe_unique_features.pdf",
+        "text": "Branch & Staff Control Owners can manage multiple branches and give each staff member only the access required for their job. Business Reports See active loans, outstanding balance, overdue amount, interest earned, daily cash flow and category-wise performance. Customer-friendly functions See My Loan Loan amount, interest, EMI and balance in simple language. Due-Date Alerts Reminder before a payment becomes overdue. Digital Receipts Every payment has a receipt that can be viewed again."
+    },
+    {
+        "filename": "finleafe_unique_features.pdf",
+        "text": "Digital Receipts Every payment has a receipt that can be viewed again. Item Transparency For gold/pawn finance, customers can view recorded item details. Help Request Request a callback for payment, loan closure or account questions. Language Choice Tamil and English with clear, readable labels. FinLeafe - Local Finance, Managed Digitally Page 3 Security and safety by design Role-based access Owner, manager, collection staff and customer each see only what they need."
+    },
+    {
+        "filename": "finleafe_unique_features.pdf",
+        "text": "Owner approval controls Important actions - loan deletion, interest change, payment reversal and gold release - require approval. Complete activity history Keep a record of who created, edited or collected every transaction. Protected customer data Secure storage, masked ID/bank details, automatic logout and regular backups. Safe customer login Customers use mobile-number OTP login; no banking PIN, CVV or UPI PIN is stored."
+    },
+    {
+        "filename": "finleafe_unique_features.pdf",
+        "text": "Fraud prevention checks Flag unusual payment reversals, duplicate accounts and unauthorised access attempts for owner review. Recommended first release 1. Core operations Customer registration, loans, payment collection and receipt generation. 2. Asset finance Gold/pawn register plus bike, car, mobile and electronics finance. 3. Customer access Loan passbook, reminders, payment history and support request. 4. Security Roles, approval controls, audit trail and automatic backup."
+    },
+    {
+        "filename": "finleafe_unique_features.pdf",
+        "text": "4. Security Roles, approval controls, audit trail and automatic backup. FinLeafe - Local Finance, Managed Digitally."
+    },
+    {
+        "filename": "InferAPI.pdf",
+        "text": "InferAPI Enterprise applications often expose large numbers of internal and third-party APIs whose documentation becomes outdated, incomplete, or unavailable over time. This creates practical challenges during system integration, maintenance, migration, and security assessment. Existing API documentation tools primarily rely on OpenAPI specifications, static code analysis, or predefined endpoint lists."
+    },
+    {
+        "filename": "InferAPI.pdf",
+        "text": "These approaches perform well when sufficient metadata exists, but provide limited coverage when only a running application is available. This project proposes an API reverse engineering system that combines runtime exploration with Agentic Retrieval-Augmented Generation (Agentic RAG) to reconstruct undocumented API behavior."
+    },
+    {
+        "filename": "InferAPI.pdf",
+        "text": "Instead of following a fixed crawling strategy, the system maintains an evolving understanding of the API and decides what to investigate next based on evidence collected during exploration. A planning agent coordinates specialized agents responsible for endpoint discovery, authentication analysis, request and response schema inference, parameter relationship analysis, and workflow reconstruction."
+    },
+    {
+        "filename": "InferAPI.pdf",
+        "text": "The system gathers information from multiple sources including HTTP responses, server logs, existing documentation, source code (when available), configuration files, and previously discovered API relationships. Retrieved information is stored as structured knowledge and used to generate hypotheses about undiscovered endpoints, authentication requirements, request parameters, and service dependencies."
+    },
+    {
+        "filename": "InferAPI.pdf",
+        "text": "Each hypothesis is verified through controlled API interactions before being incorporated into the knowledge base. Exploration continues until successive iterations produce minimal new information, indicating that reasonable coverage has been achieved."
+    },
+    {
+        "filename": "InferAPI.pdf",
+        "text": "Using the validated knowledge base, the system generates OpenAPI specifications, endpoint documentation, request and response examples, authentication flows, service dependency graphs, and sequence diagrams representing inferred business workflows. Generated documentation is continuously compared against observed runtime behavior, allowing inconsistencies and documentation drift to be identified."
+    },
+    {
+        "filename": "InferAPI.pdf",
+        "text": "The primary contribution of this work is the application of Agentic RAG to API reverse engineering, where exploration decisions cannot be predetermined and must adapt to newly discovered evidence. The resulting system reduces the manual effort required to understand undocumented APIs while producing documentation that is grounded in observed system behavior rather than assumptions. Functional Requirements Document (FRD) 1."
+    },
+    {
+        "filename": "InferAPI.pdf",
+        "text": "Functional Requirements Document (FRD) 1. Introduction and Project Scope The system is an automated API reverse engineering platform designed to reconstruct documentation for undocumented or drifting enterprise APIs. By utilizing an Agentic Retrieval-Augmented Generation (Agentic RAG) architecture, the system dynamically explores running applications, validates hypotheses via controlled runtime interactions, and generates comprehensive OpenAPI specs, dependency graphs, and workflow diagrams. 2."
+    },
+    {
+        "filename": "InferAPI.pdf",
+        "text": "2. Functional Architecture & Core Modules 2.1. Multi-Agent Planning & Coordination Module ●​ FR-1.1 (Central Planner): The system must feature a Planning Agent that coordinates specialized sub-agents and maintains an evolving execution state based on newly discovered evidence. ●​ FR-1.2 (Dynamic Strategy Adjustment): The Planning Agent must dynamically decide the next exploration step instead of following a rigid, predefined crawling script."
+    },
+    {
+        "filename": "InferAPI.pdf",
+        "text": "●​ FR-1.3 (Termination Criterion): The system must automatically cease exploration when successive iterations yield minimal to no new API information (converged coverage). 2.2. Specialized Exploration Agents ●​ FR-2.1 (Endpoint Discovery Agent): Must identify hidden or undocumented endpoints using runtime exploration, historical data, and multi-source inputs."
+    },
+    {
+        "filename": "InferAPI.pdf",
+        "text": "●​ FR-2.2 (Authentication Analysis Agent): Must analyze, infer, and test authentication mechanisms and credential requirements for discovered endpoints. ●​ FR-2.3 (Schema Inference Agent): Must deduce request and response schemas, data types, and structures from active runtime interactions. ●​ FR-2.4 (Parameter Relationship Agent): Must analyze dependencies, constraints, and relationships between different input parameters."
+    },
+    {
+        "filename": "InferAPI.pdf",
+        "text": "●​ FR-2.5 (Workflow Reconstruction Agent): Must identify logical sequences of API calls that represent underlying business workflows. 2.3. Multi-Source Ingestion & Knowledge Base (RAG) ●​ FR-3.1 (Multi-Source Data Ingestion): The system must ingest information from heterogeneous sources, including: ○​ Active HTTP responses and server logs. ○​ Legacy/incomplete documentation and configuration files. ○​ Source code (when accessible). ○​ Previously mapped API relationships."
+    },
+    {
+        "filename": "InferAPI.pdf",
+        "text": "○​ Source code (when accessible). ○​ Previously mapped API relationships. ●​ FR-3.2 (Structured Knowledge Base): Ingested data and verified discoveries must be stored in a structured knowledge base to ground the LLM/agents and prevent hallucinations. 2.4. Hypothesis Generation & Active Verification ●​ FR-4.1 (Hypothesis Generation): The system must formulate testable hypotheses regarding undiscovered endpoints, parameter rules, auth constraints, and service dependencies."
+    },
+    {
+        "filename": "InferAPI.pdf",
+        "text": "●​ FR-4.2 (Controlled Runtime Verification): The system must execute safe, controlled API requests to validate or refute generated hypotheses before committing them to the knowledge base. 2.5. Documentation, Artifact Generation & Drift Analysis ●​ FR-5.1 (Standardized Documentation Output): The system must generate valid OpenAPI specifications, markdown endpoint documentation, and request/response examples."
+    },
+    {
+        "filename": "InferAPI.pdf",
+        "text": "●​ FR-5.2 (Visual Artifact Generation): The system must generate service dependency graphs and sequence diagrams illustrating inferred business workflows. ●​ FR-5.3 (Continuous Drift Detection): The system must continuously compare generated documentation against real-time runtime behavior to flag inconsistencies and documentation drift. 3."
+    },
+    {
+        "filename": "InferAPI.pdf",
+        "text": "3. User & System Interactions User/System Role Action System Response System Administrator / Engineer Initiates exploration by pointing to a running application or providing available seed metadata (logs, code, configs). Initializes the Planning Agent, triggers multi-source ingestion, and kicks off the iterative loop. Specialized Agents Generate a hypothesis (e.g., \"Endpoint X requires Bearer Token Y\"). Executes a controlled request to Endpoint X to verify the hypothesis."
+    },
+    {
+        "filename": "InferAPI.pdf",
+        "text": "Executes a controlled request to Endpoint X to verify the hypothesis. Verification Engine Receives API response (e.g., 200 OK vs 401 Unauthorized). Updates the Structured Knowledge Base with validated truth; updates the Planning Agent's state. End User Requests documentation export upon execution termination. Generates and downloads OpenAPI specs, sequence diagrams, and dependency graphs. 4."
+    },
+    {
+        "filename": "InferAPI.pdf",
+        "text": "Generates and downloads OpenAPI specs, sequence diagrams, and dependency graphs. 4. Non-Functional Highlights (Contextual Constraints) ●​ Safety & Guardrails: Controlled runtime interactions must be structured to avoid causing denial-of-service (DoS) or altering critical production states unnecessarily. ●​ Accuracy & Grounding: Generated specifications must be strictly grounded in observed runtime behavior or validated source data rather than assumptions. How Will the Application Work?"
+    },
+    {
+        "filename": "InferAPI.pdf",
+        "text": "How Will the Application Work? (The Step-by-Step Lifecycle) The system does not just blindly scan; it works in an intelligent, iterative loop. Here is the operational workflow from start to finish: Step 1: Ingestion and Initialization 1.​ You log into the Web UI and point the system to a target application (e.g., https://api.internal.enterprise.com). 2.​ You feed the system whatever \"clues\" you have: server logs, configuration files, scattered code snippets, or old documentation."
+    },
+    {
+        "filename": "InferAPI.pdf",
+        "text": "3.​ The Knowledge Base parses this data, chunking and embedding it into a Vector Database so the agents have context. Step 2: The Agentic RAG Loop (The Core Engine) Instead of following a rigid script, the application enters a loop driven by Agentic RAG: ●​ Analyze & Plan: The Planning Agent looks at what is currently known in the Knowledge Base and assigns a task (e.g., \"We found a reference to /users/{id} in the logs, but don't know the schema. Schema Agent, investigate.\")."
+    },
+    {
+        "filename": "InferAPI.pdf",
+        "text": "Schema Agent, investigate.\"). ●​ Hypothesize: The Schema Inference Agent pulls context from the RAG database, matches it against standard API patterns, and generates a hypothesis: \"I suspect sending a GET request to /users/123 returns a JSON object containing username (string) and email (string).\" ●​ Active Verification: Before believing the AI's guess, the system passes this hypothesis to the Verification Engine. This engine sends an actual, live HTTP request to the running target API."
+    },
+    {
+        "filename": "InferAPI.pdf",
+        "text": "This engine sends an actual, live HTTP request to the running target API. Step 3: Knowledge Consolidation ●​ The live API responds (e.g., it returns 200 OK with the exact JSON payload). ●​ The system captures this real-world evidence, proves the hypothesis true, and writes the exact structure back into the Structured Knowledge Base. ●​ If the target API returned a 401 Unauthorized, the Authentication Agent is triggered next to figure out the required tokens."
+    },
+    {
+        "filename": "InferAPI.pdf",
+        "text": "Step 4: Convergence & Termination The services repeat this loop autonomously. ●​ Iteration 5: Finds 20 new endpoints. ●​ Iteration 12: Finds 2 new endpoints. ●​ Iteration 15: Finds 0 new endpoints. Once the system realizes it is no longer discovering new data, the Planning Agent halts the loop. Step 5: Artifact Generation The system compiles everything in the validated Knowledge Base into user-facing outputs available on the Web UI: ●​ An interactive OpenAPI / Swagger specification."
+    },
+    {
+        "filename": "InferAPI.pdf",
+        "text": "●​ Sequence Diagrams visualizing how endpoints link together to form business workflows (e.g., how Login leads to Cart Creation, which leads to Checkout). ●​ Drift Reports highlighting where the live API behavior contradicts your old documentation. ARCHITECTURE This platform sits at the intersection of modern AI/LLM orchestration and Enterprise Software Engineering."
+    },
+    {
+        "filename": "InferAPI.pdf",
+        "text": "It does not rely on a single design pattern; instead, it layers multiple architectural methodologies together to handle complex, asynchronous background reasoning and real-world network execution. The application utilizes five core software and AI architectures: 1. Multi-Agent Architecture (Orchestration Pattern) The AI engine is built as a Hierarchical Multi-Agent System."
+    },
+    {
+        "filename": "InferAPI.pdf",
+        "text": "Instead of relying on a single, massive LLM prompt to do everything, the workload is distributed among a cooperative team: ●​ Plan-and-Execute Pattern: A centralized Planning Agent manages the overall state, tracks what has been discovered, and outlines multi-step objectives. ●​ Specialist Agent Routing: The Planner assigns micro-tasks to highly specialized, isolated agents (e.g., Auth Agent, Schema Agent, Parameter Agent) that only care about their specific domain."
+    },
+    {
+        "filename": "InferAPI.pdf",
+        "text": "●​ ReAct (Reasoning and Action) Loop: The sub-agents use a ReAct framework. They look at the current state, reason about what is missing, select a tool to execute, observe the results, and self-correct if the execution fails. 2."
+    },
+    {
+        "filename": "InferAPI.pdf",
+        "text": "2. Advanced Agentic RAG Architecture Unlike traditional \"Naive RAG\" (which operates as a linear User Prompt $\\rightarrow$ Vector Database Search $\\rightarrow$ LLM Output assembly line), this platform uses an Iterative, Multi-Hop Agentic RAG setup: ●​ Dynamic Query Optimization: The agents actively rewrite and re-formulate search queries to probe different areas of data stores (logs, old files, code repos)."
+    },
+    {
+        "filename": "InferAPI.pdf",
+        "text": "●​ Information Gap Analysis (Reflection/Critic Node): Before finalizing any documentation, an internal \"Auditor/Critic\" node evaluates the collected context, calculates if there are blind spots, and proactively triggers more retrieval cycles until it reaches high semantic confidence. 3. Distributed Event-Driven & Microservices Architecture Because exploring an enterprise system can take hours and thousands of API calls, the backend cannot run on a single monolithic server."
+    },
+    {
+        "filename": "InferAPI.pdf",
+        "text": "It utilizes an asynchronous infrastructure: ●​ Worker Queue Pattern: The Central Planner acts as a dispatcher, throwing exploration jobs onto a message broker (e.g., RabbitMQ, Apache Kafka, or AWS SQS). Distributed worker containers pull these tasks, spin up an LLM context, execute the work, and exit."
+    },
+    {
+        "filename": "InferAPI.pdf",
+        "text": "Distributed worker containers pull these tasks, spin up an LLM context, execute the work, and exit. ●​ Stateful Long-Running Workflows: The system maintains long-term session data across multiple pipeline iterations using external workflow state machines (similar to temporal orchestration or specialized graph engines like LangGraph). 4."
+    },
+    {
+        "filename": "InferAPI.pdf",
+        "text": "4. Hybrid Database & Polyglot Persistence Architecture To manage the \"evolving understanding\" of the target API, the storage layer must split data across different architectures based on how that data is queried: ●​ Vector Database (Semantic Long-Term Memory): Stores structural embeddings of logs, source code, and unorganized text files for similarity-based RAG retrieval."
+    },
+    {
+        "filename": "InferAPI.pdf",
+        "text": "●​ Graph Database (Relationship Mapping): Used by the Workflow Reconstruction Agent to build the inferred API relationship maps, dependency trees, and sequential business paths. ●​ Relational/Key-Value Database (The Single Source of Truth): Holds the strictly validated API endpoints, precise JSON schemas, and confirmed authentication variables. 5."
+    },
+    {
+        "filename": "InferAPI.pdf",
+        "text": "5. Active Verification & Sandbox Simulation Architecture The application incorporates a separate, highly secure Runtime Execution Engine designed around isolation patterns: ●​ Sandbox Automated Client: Effectively an automated, programmatically controlled HTTP runner that acts as a buffer between the AI models and your live network."
+    },
+    {
+        "filename": "InferAPI.pdf",
+        "text": "●​ Idempotency & State Guardrails: This layer enforces traffic-shaping filters to ensure the AI's hypotheses do not repeatedly spam production endpoints or cause destructive system mutations (e.g., avoiding infinitely generating destructive DELETE loops)."
+    }
+]
